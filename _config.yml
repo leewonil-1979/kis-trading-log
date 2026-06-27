@@ -1,0 +1,29 @@
+title: "KIS 자동매매 운영 일지"
+description: "급락 반전 / VI 눌림 / 첫 상한가 익일 — 자동매매 시스템 운영 기록"
+url: "https://leewonil-1979.github.io"
+baseurl: ""
+
+theme: minima
+
+# 포스트 기본 설정
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "KIS AutoTrader"
+
+# 날짜 형식
+date_format: "%Y년 %m월 %d일"
+
+# 빌드 설정
+markdown: kramdown
+highlighter: rouge
+permalink: /posts/:year/:month/:day/:title/
+
+# 불필요한 파일 제외
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
